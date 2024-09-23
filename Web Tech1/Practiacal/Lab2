@@ -1,0 +1,60 @@
+<!-- LAB2 A
+1. Anchor tag, Image control.(A)
+2. Iframe tag.(B)
+3. List controls.(C) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Controls Demonstration</title>
+</head>
+<body>
+    <header>
+        <h1>HTML Controls Demonstration</h1>
+    </header>
+    
+    <!-- Section A: Anchor tag and Image control -->
+    <section>
+        <h2>Anchor Tag and Image Control</h2>
+        
+        <!-- Anchor tag to link to an external website -->
+        <p>Visit <a href="https://www.example.com" target="_blank">Example.com</a> for more information.</p>
+        
+        <!-- Image control displaying an image -->
+        <img src="https://via.placeholder.com/150" alt="Placeholder Image" />
+        <p>This is a placeholder image above.</p>
+    </section>
+    
+    <!-- Section B: Iframe tag -->
+    <section>
+        <h2>Iframe Tag</h2>
+        <!-- Iframe to embed another webpage -->
+        <iframe src="https://www.example.com" width="600" height="400" title="Embedded Example.com"></iframe>
+        <p>The above iframe embeds Example.com.</p>
+    </section>
+    
+    <!-- Section C: List controls -->
+    <section>
+        <h2>List Controls</h2>
+        
+        <!-- Unordered list -->
+        <h3>Unordered List</h3>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        
+        <!-- Ordered list -->
+        <h3>Ordered List</h3>
+        <ol>
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+        </ol>
+    </section>
+    
+</body>
+</html>
